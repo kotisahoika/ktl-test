@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinki 県府庁タイムアタックラリー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Kinki 県府庁タイムアタックラリー</h1>
+    <label for="teamSelect">チームを選択:</label>
+    <select id="teamSelect">
+        <option value="">チームを選択してください</option>
+        <option value="チームA">チームA</option>
+        <option value="チームB">チームB</option>
+    </select>
+    
+    <div id="passwordSection" style="display:none;">
+        <label for="teamPassword">パスワードを入力:</label>
+        <input type="password" id="teamPassword">
+        <button id="passwordSubmit">確認</button>
+    </div>
+
+    <button id="checkInButton" style="display:none;">チェックイン</button>
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
